@@ -79,7 +79,7 @@ header {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
-  transition: transform 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -204,7 +204,7 @@ header {
   border-radius: 5px;
   border: none;
   transition: background-color 250ms var(--timing-function),
-    box-shadow 250ms var(--timing-function);
+    color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
 .button.portfolio.all {
   color: var(--background-color-white);
